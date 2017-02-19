@@ -16,6 +16,9 @@
 		4D85DDD61E552E30001B3F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85DDD41E552E30001B3F36 /* LaunchScreen.storyboard */; };
 		4D85DDE11E552E30001B3F36 /* CodPolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDE01E552E30001B3F36 /* CodPolTests.swift */; };
 		4D85DDEC1E552E30001B3F36 /* CodPolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDEB1E552E30001B3F36 /* CodPolUITests.swift */; };
+		4DF933D01E59137D0066E872 /* CPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933CF1E59137D0066E872 /* CPNavigationController.swift */; };
+		4DF933D31E5915E60066E872 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D21E5915E60066E872 /* SideMenuViewController.swift */; };
+		4DF933D61E5928430066E872 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D51E5928430066E872 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		4D85DDE71E552E30001B3F36 /* CodPolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodPolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D85DDEB1E552E30001B3F36 /* CodPolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodPolUITests.swift; sourceTree = "<group>"; };
 		4D85DDED1E552E30001B3F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF933CF1E59137D0066E872 /* CPNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPNavigationController.swift; sourceTree = "<group>"; };
+		4DF933D21E5915E60066E872 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		4DF933D51E5928430066E872 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A4D192D70E3CC0E7891CE90E /* Pods-CodPol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodPol.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodPol/Pods-CodPol.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,9 +121,12 @@
 		4D85DDC71E552E30001B3F36 /* CodPol */ = {
 			isa = PBXGroup;
 			children = (
+				4DF933D41E59281D0066E872 /* Utils */,
+				4DF933D11E5915A20066E872 /* SideMenu */,
 				4DF933CC1E58F5C90066E872 /* Scenes */,
 				4D85DDC81E552E30001B3F36 /* AppDelegate.swift */,
 				4D85DDCA1E552E30001B3F36 /* ViewController.swift */,
+				4DF933CF1E59137D0066E872 /* CPNavigationController.swift */,
 				4D85DDCC1E552E30001B3F36 /* Main.storyboard */,
 				4D85DDD21E552E30001B3F36 /* Assets.xcassets */,
 				4D85DDD41E552E30001B3F36 /* LaunchScreen.storyboard */,
@@ -150,6 +159,22 @@
 			children = (
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4DF933D11E5915A20066E872 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4DF933D21E5915E60066E872 /* SideMenuViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		4DF933D41E59281D0066E872 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4DF933D51E5928430066E872 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		8DC01D92264699360224F01E /* Frameworks */ = {
@@ -350,7 +375,10 @@
 			files = (
 				4D85DDCB1E552E30001B3F36 /* ViewController.swift in Sources */,
 				4D85DDD11E552E30001B3F36 /* CodPol.xcdatamodeld in Sources */,
+				4DF933D01E59137D0066E872 /* CPNavigationController.swift in Sources */,
+				4DF933D31E5915E60066E872 /* SideMenuViewController.swift in Sources */,
 				4D85DDC91E552E30001B3F36 /* AppDelegate.swift in Sources */,
+				4DF933D61E5928430066E872 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
