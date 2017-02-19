@@ -15,11 +15,7 @@ class SideMenuViewController: UIViewController {
     
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var menuTableView: UITableView!
-    let menuOptions = ["Nuevo Código de Policía",
-                       "Favoritos",
-                       "Mitos y Verdades",
-                       "Tipos de Multas",
-                       "Acerca de"]
+    let menuOptions = PlistParser.getSideMenuList() ?? [""]
     var selectedIndexPath: IndexPath!
 
     override func viewDidLoad() {
@@ -62,11 +58,11 @@ extension SideMenuViewController: UITableViewDelegate {
         selectedIndexPath = indexPath
         switch indexPath.row {
         case 0:
-            let viewController = UIStoryboard.init(name: kMainBundleName, bundle: nil).instantiateViewController(withIdentifier: kCodigoPoliciaViewControllerIdentifier)
+            let viewController = UIStoryboard.init(name: kCodigoPoliciaStoryboardName, bundle: nil).instantiateViewController(withIdentifier: kCodigoPoliciaViewControllerIdentifier)
             navigationController?.pushViewController(viewController, animated: true)
             break
         default:
-            let viewController = UIStoryboard.init(name: kMainBundleName, bundle: nil).instantiateViewController(withIdentifier: kFavoritosViewControllerIdentifier)
+            let viewController = UIStoryboard.init(name: kFavoritosStoryboardName, bundle: nil).instantiateViewController(withIdentifier: kFavoritosViewControllerIdentifier)
             navigationController?.pushViewController(viewController, animated: true)
         }
     }

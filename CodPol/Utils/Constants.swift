@@ -8,7 +8,13 @@
 
 import UIKit
 
-let kMainBundleName = "Main"
+let kMainStoryboardName = "Main"
+let kSideMenuStoryboardName = "SideMenu"
+let kCodigoPoliciaStoryboardName = "CodigoPolicia"
+let kMitosYVerdadesStoryboardName = "MitosYVerdades"
+let kFavoritosStoryboardName = "Favoritos"
+let kTiposMultaStoryboardName = "TiposMulta"
+let kAcercaDeStoryboardName = "AcercaDe"
 let kCodigoPoliciaViewControllerIdentifier = "ViewController"
 let kFavoritosViewControllerIdentifier = "SecondViewController"
 let kSideMenuViewControllerIdentifier = "SideMenuViewController"

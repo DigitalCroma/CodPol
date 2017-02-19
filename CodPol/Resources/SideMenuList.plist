@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<string>CPCodigoPolicia</string>
+		<key>text</key>
+		<string>Código de Policia</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>CPFavoritos</string>
+		<key>text</key>
+		<string>Favoritos</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>CPMitosYVerdades</string>
+		<key>text</key>
+		<string>Mitos y Verdades</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>CPTiposMulta</string>
+		<key>text</key>
+		<string>Tipos de Multa</string>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<string>CPAcercaDe</string>
+		<key>text</key>
+		<string>Acerca de</string>
+	</dict>
+</array>
+</plist>

@@ -15,7 +15,7 @@ class CPNavigationController: UINavigationController {
         super.viewDidLoad()
         
         // Define the menus
-        let menuLeftNavigationController = UISideMenuNavigationController(rootViewController: UIStoryboard.init(name: kMainBundleName, bundle: nil).instantiateViewController(withIdentifier: kSideMenuViewControllerIdentifier))
+        let menuLeftNavigationController = UISideMenuNavigationController(rootViewController: UIStoryboard.init(name: kSideMenuStoryboardName, bundle: nil).instantiateViewController(withIdentifier: kSideMenuViewControllerIdentifier))
         menuLeftNavigationController.leftSide = true
         
         SideMenuManager.menuLeftNavigationController = menuLeftNavigationController
@@ -23,5 +23,7 @@ class CPNavigationController: UINavigationController {
         SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.view)
         SideMenuManager.menuPushStyle = .replace
         SideMenuManager.menuAllowPushOfSameClassTwice = false
+        
+        viewControllers = [UIStoryboard.init(name: kCodigoPoliciaStoryboardName, bundle: nil).instantiateViewController(withIdentifier: kCodigoPoliciaViewControllerIdentifier)]
     }
 }
