@@ -7,4 +7,4 @@ before_install:
   - pod repo update
 
 script:
-    - xcodebuild clean build test -sdk iphonesimulator -workspace CodPol.xcworkspace -scheme CodPol CODE_SIGNING_REQUIRED=NO
+    - xcodebuild clean build test -sdk iphonesimulator -workspace CodPol.xcworkspace -scheme CodPol CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2'
