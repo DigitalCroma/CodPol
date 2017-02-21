@@ -23,21 +23,58 @@ class PlistParser {
         return nil
     }
     
-    class func getSideMenuList() -> [String]? {
-        var sideMenuArray = [String]()
+    class func getSideMenuList() -> [SideMenuModel]? {
+        var sideMenuArray = [SideMenuModel]()
         if let sideMenuListInfo = loadInfoPlist(forName: kSideMenuListName) {
             for info in sideMenuListInfo {
-                guard let name = info["text"]
+                guard
+                    let text = info["text"],
+                    let identifier = getIdentifier(forName: info["identifier"]!),
+                    let location = getLocation(forName: info["location"]!)
                     else {
                         continue
                 }
                 
-                sideMenuArray.append(name)
+                sideMenuArray.append(SideMenuModel(text: text, identifier: identifier, location: location))
             }
             
             return sideMenuArray
         }
         
         return nil
+    }
+    
+    class private func getIdentifier(forName: String) -> String? {
+        switch forName {
+        case "kCodigoPoliciaViewControllerIdentifier":
+            return kCodigoPoliciaViewControllerIdentifier
+        case "kFavoritosViewControllerIdentifier":
+            return kFavoritosViewControllerIdentifier
+        case "kMitosYVerdadesViewControllerIdentifier":
+            return kMitosYVerdadesViewControllerIdentifier
+        case "kTiposMultaViewControllerIdentifier":
+            return kTiposMultaViewControllerIdentifier
+        case "kAcercaDeViewControllerIdentifier":
+            return kAcercaDeViewControllerIdentifier
+        default:
+            return nil
+        }
+    }
+    
+    class private func getLocation(forName: String) -> String? {
+        switch forName {
+        case "kCodigoPoliciaStoryboardName":
+            return kCodigoPoliciaStoryboardName
+        case "kMitosYVerdadesStoryboardName":
+            return kMitosYVerdadesStoryboardName
+        case "kFavoritosStoryboardName":
+            return kFavoritosStoryboardName
+        case "kTiposMultaStoryboardName":
+            return kTiposMultaStoryboardName
+        case "kAcercaDeStoryboardName":
+            return kAcercaDeStoryboardName
+        default:
+            return nil
+        }
     }
 }

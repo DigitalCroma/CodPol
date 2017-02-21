@@ -26,6 +26,8 @@
 		4D85DDD61E552E30001B3F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85DDD41E552E30001B3F36 /* LaunchScreen.storyboard */; };
 		4D85DDE11E552E30001B3F36 /* CodPolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDE01E552E30001B3F36 /* CodPolTests.swift */; };
 		4D85DDEC1E552E30001B3F36 /* CodPolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDEB1E552E30001B3F36 /* CodPolUITests.swift */; };
+		4D9CFB2F1E5BB79E00601385 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */; };
+		4D9CFB301E5BB7F700601385 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */; };
 		4DF933D01E59137D0066E872 /* CPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933CF1E59137D0066E872 /* CPNavigationController.swift */; };
 		4DF933D31E5915E60066E872 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D21E5915E60066E872 /* SideMenuViewController.swift */; };
 		4DF933D61E5928430066E872 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D51E5928430066E872 /* Constants.swift */; };
@@ -74,6 +76,7 @@
 		4D85DDE71E552E30001B3F36 /* CodPolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodPolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D85DDEB1E552E30001B3F36 /* CodPolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodPolUITests.swift; sourceTree = "<group>"; };
 		4D85DDED1E552E30001B3F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
 		4DF933CF1E59137D0066E872 /* CPNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPNavigationController.swift; sourceTree = "<group>"; };
 		4DF933D21E5915E60066E872 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		4DF933D51E5928430066E872 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -174,6 +177,7 @@
 		4D85DDC71E552E30001B3F36 /* CodPol */ = {
 			isa = PBXGroup;
 			children = (
+				4D9CFB2D1E5BB76500601385 /* Models */,
 				4D4E338D1E59FEED003EB2D7 /* Resources */,
 				4D4E338C1E59FE45003EB2D7 /* Common */,
 				4DF933D41E59281D0066E872 /* Utils */,
@@ -202,6 +206,14 @@
 				4D85DDED1E552E30001B3F36 /* Info.plist */,
 			);
 			path = CodPolUITests;
+			sourceTree = "<group>";
+		};
+		4D9CFB2D1E5BB76500601385 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4DF933CC1E58F5C90066E872 /* Scenes */ = {
@@ -433,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9CFB2F1E5BB79E00601385 /* SideMenuModel.swift in Sources */,
 				4D85DDD11E552E30001B3F36 /* CodPol.xcdatamodeld in Sources */,
 				4DF933D01E59137D0066E872 /* CPNavigationController.swift in Sources */,
 				4DF933D31E5915E60066E872 /* SideMenuViewController.swift in Sources */,
@@ -447,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D85DDE11E552E30001B3F36 /* CodPolTests.swift in Sources */,
+				4D9CFB301E5BB7F700601385 /* SideMenuModel.swift in Sources */,
 				4D4E33951E5A0E56003EB2D7 /* PlistParserTests.swift in Sources */,
 				4D4E33961E5A0E60003EB2D7 /* PlistParser.swift in Sources */,
 			);

@@ -23,6 +23,7 @@ class CPNavigationController: UINavigationController {
         SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.view)
         SideMenuManager.menuPushStyle = .replace
         SideMenuManager.menuAllowPushOfSameClassTwice = false
+        SideMenuManager.menuAnimationBackgroundColor = UIColor.white
         
         viewControllers = [UIStoryboard.init(name: kCodigoPoliciaStoryboardName, bundle: nil).instantiateViewController(withIdentifier: kCodigoPoliciaViewControllerIdentifier)]
     }

@@ -4,33 +4,43 @@
 <array>
 	<dict>
 		<key>identifier</key>
-		<string>CPCodigoPolicia</string>
+		<string>kCodigoPoliciaViewControllerIdentifier</string>
 		<key>text</key>
 		<string>Código de Policia</string>
+		<key>location</key>
+		<string>kCodigoPoliciaStoryboardName</string>
 	</dict>
 	<dict>
 		<key>identifier</key>
-		<string>CPFavoritos</string>
+		<string>kFavoritosViewControllerIdentifier</string>
 		<key>text</key>
 		<string>Favoritos</string>
+		<key>location</key>
+		<string>kFavoritosStoryboardName</string>
 	</dict>
 	<dict>
 		<key>identifier</key>
-		<string>CPMitosYVerdades</string>
+		<string>kMitosYVerdadesViewControllerIdentifier</string>
 		<key>text</key>
 		<string>Mitos y Verdades</string>
+		<key>location</key>
+		<string>kMitosYVerdadesStoryboardName</string>
 	</dict>
 	<dict>
 		<key>identifier</key>
-		<string>CPTiposMulta</string>
+		<string>kTiposMultaViewControllerIdentifier</string>
 		<key>text</key>
 		<string>Tipos de Multa</string>
+		<key>location</key>
+		<string>kTiposMultaStoryboardName</string>
 	</dict>
 	<dict>
 		<key>identifier</key>
-		<string>CPAcercaDe</string>
+		<string>kAcercaDeViewControllerIdentifier</string>
 		<key>text</key>
 		<string>Acerca de</string>
+		<key>location</key>
+		<string>kAcercaDeStoryboardName</string>
 	</dict>
 </array>
 </plist>
