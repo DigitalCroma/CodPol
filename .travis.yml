@@ -5,4 +5,4 @@ osx_image: xcode8.2
 xcode_sdk: iphonesimulator10.0
 before_install:
   - gem install cocoapods -v '1.2.0'
-
+  - pod repo update
