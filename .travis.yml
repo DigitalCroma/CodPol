@@ -1,6 +1,6 @@
 language: objective-c
-xcode_workspeace: CodPol.xcworkspace # path to your xcodeproj folder
-xcode_scheme: CodPolTests
+xcode_workspace: CodPol.xcworkspace # path to your xcodeproj folder
+xcode_scheme: CodPol
 osx_image: xcode8.2
 xcode_sdk: iphonesimulator10.0
 before_install:

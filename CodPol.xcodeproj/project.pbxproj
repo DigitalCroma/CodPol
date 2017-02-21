@@ -321,19 +321,16 @@
 				TargetAttributes = {
 					4D85DDC41E552E2F001B3F36 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 45NK5S4XHR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4D85DDDB1E552E30001B3F36 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 45NK5S4XHR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 4D85DDC41E552E2F001B3F36;
 					};
 					4D85DDE61E552E30001B3F36 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 45NK5S4XHR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 4D85DDC41E552E2F001B3F36;
 					};
 				};
@@ -609,7 +606,7 @@
 			baseConfigurationReference = 0F18BA05DD37673B6F3C8528 /* Pods-CodPol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 45NK5S4XHR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CodPol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalcroma.CodPol;
@@ -623,7 +620,7 @@
 			baseConfigurationReference = A4D192D70E3CC0E7891CE90E /* Pods-CodPol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 45NK5S4XHR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CodPol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalcroma.CodPol;
@@ -637,7 +634,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 45NK5S4XHR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CodPolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalcroma.CodPolTests;
@@ -652,7 +649,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 45NK5S4XHR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CodPolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalcroma.CodPolTests;
@@ -666,7 +663,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 45NK5S4XHR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CodPolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalcroma.CodPolUITests;
@@ -680,7 +677,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 45NK5S4XHR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CodPolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalcroma.CodPolUITests;
