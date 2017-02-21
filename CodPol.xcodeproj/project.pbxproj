@@ -28,6 +28,7 @@
 		4D85DDEC1E552E30001B3F36 /* CodPolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDEB1E552E30001B3F36 /* CodPolUITests.swift */; };
 		4D9CFB2F1E5BB79E00601385 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */; };
 		4D9CFB301E5BB7F700601385 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */; };
+		4D9CFB311E5BC24E00601385 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D51E5928430066E872 /* Constants.swift */; };
 		4DF933D01E59137D0066E872 /* CPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933CF1E59137D0066E872 /* CPNavigationController.swift */; };
 		4DF933D31E5915E60066E872 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D21E5915E60066E872 /* SideMenuViewController.swift */; };
 		4DF933D61E5928430066E872 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D51E5928430066E872 /* Constants.swift */; };
@@ -459,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9CFB311E5BC24E00601385 /* Constants.swift in Sources */,
 				4D85DDE11E552E30001B3F36 /* CodPolTests.swift in Sources */,
 				4D9CFB301E5BB7F700601385 /* SideMenuModel.swift in Sources */,
 				4D4E33951E5A0E56003EB2D7 /* PlistParserTests.swift in Sources */,

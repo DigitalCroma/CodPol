@@ -8,7 +8,7 @@
 
 import UIKit
 
-let kSideMenuListName = "SideMenuList"
+let kSideMenuListFileName = "SideMenuList"
 
 class PlistParser {
     
@@ -25,7 +25,7 @@ class PlistParser {
     
     class func getSideMenuList() -> [SideMenuModel]? {
         var sideMenuArray = [SideMenuModel]()
-        if let sideMenuListInfo = loadInfoPlist(forName: kSideMenuListName) {
+        if let sideMenuListInfo = loadInfoPlist(forName: kSideMenuListFileName) {
             for info in sideMenuListInfo {
                 guard
                     let text = info["text"],
