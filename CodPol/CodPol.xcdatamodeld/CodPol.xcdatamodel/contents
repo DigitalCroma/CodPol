@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Article" representedClassName="Article" syncable="YES" codeGenerationType="class">
+    <entity name="Article" representedClassName="Article" syncable="YES">
         <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="chapter" maxCount="1" deletionRule="Nullify" destinationEntity="Chapter" inverseName="article" inverseEntity="Chapter" syncable="YES"/>
     </entity>
-    <entity name="Book" representedClassName="Book" syncable="YES" codeGenerationType="class">
+    <entity name="Book" representedClassName="Book" syncable="YES">
         <attribute name="information" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <relationship name="title" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Title" inverseName="book" inverseEntity="Title" syncable="YES"/>
     </entity>
-    <entity name="Chapter" representedClassName="Chapter" syncable="YES" codeGenerationType="class">
+    <entity name="Chapter" representedClassName="Chapter" syncable="YES">
         <attribute name="information" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="chapter" inverseEntity="Article" syncable="YES"/>
         <relationship name="title" maxCount="1" deletionRule="Nullify" destinationEntity="Title" inverseName="chapter" inverseEntity="Title" syncable="YES"/>
     </entity>
-    <entity name="Title" representedClassName="Title" syncable="YES" codeGenerationType="class">
+    <entity name="Title" representedClassName="Title" syncable="YES">
         <attribute name="information" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="book" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="title" inverseEntity="Book" syncable="YES"/>
         <relationship name="chapter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chapter" inverseName="title" inverseEntity="Chapter" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Article" positionX="16" positionY="407" width="128" height="88"/>
-        <element name="Chapter" positionX="9" positionY="270" width="126" height="103"/>
-        <element name="Book" positionX="-9" positionY="-0" width="128" height="88"/>
-        <element name="Title" positionX="-2" positionY="126" width="128" height="103"/>
+        <element name="Article" positionX="16" positionY="407" width="128" height="90"/>
+        <element name="Book" positionX="-9" positionY="-0" width="128" height="90"/>
+        <element name="Chapter" positionX="9" positionY="270" width="126" height="105"/>
+        <element name="Title" positionX="-2" positionY="126" width="128" height="105"/>
     </elements>
 </model>
