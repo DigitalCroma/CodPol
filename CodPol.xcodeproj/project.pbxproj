@@ -54,12 +54,12 @@
 /* Begin PBXFileReference section */
 		0F18BA05DD37673B6F3C8528 /* Pods-CodPol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodPol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodPol/Pods-CodPol.debug.xcconfig"; sourceTree = "<group>"; };
 		18812D46D252E932FA4B94F1 /* Pods_CodPol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodPol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D4E337F1E59FAE5003EB2D7 /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SideMenu.storyboard; path = ../../Base.lproj/SideMenu.storyboard; sourceTree = "<group>"; };
-		4D4E33811E59FC38003EB2D7 /* CodigoPolicia.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CodigoPolicia.storyboard; path = ../../Base.lproj/CodigoPolicia.storyboard; sourceTree = "<group>"; };
-		4D4E33831E59FC8D003EB2D7 /* MitosYVerdades.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MitosYVerdades.storyboard; path = ../../Base.lproj/MitosYVerdades.storyboard; sourceTree = "<group>"; };
-		4D4E33851E59FC9B003EB2D7 /* Favoritos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Favoritos.storyboard; path = ../../Base.lproj/Favoritos.storyboard; sourceTree = "<group>"; };
-		4D4E33871E59FCCB003EB2D7 /* TiposMulta.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TiposMulta.storyboard; path = ../../Base.lproj/TiposMulta.storyboard; sourceTree = "<group>"; };
-		4D4E33891E59FCD6003EB2D7 /* AcercaDe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AcercaDe.storyboard; path = ../../Base.lproj/AcercaDe.storyboard; sourceTree = "<group>"; };
+		4D4E337F1E59FAE5003EB2D7 /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		4D4E33811E59FC38003EB2D7 /* CodigoPolicia.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CodigoPolicia.storyboard; sourceTree = "<group>"; };
+		4D4E33831E59FC8D003EB2D7 /* MitosYVerdades.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MitosYVerdades.storyboard; sourceTree = "<group>"; };
+		4D4E33851E59FC9B003EB2D7 /* Favoritos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favoritos.storyboard; sourceTree = "<group>"; };
+		4D4E33871E59FCCB003EB2D7 /* TiposMulta.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TiposMulta.storyboard; sourceTree = "<group>"; };
+		4D4E33891E59FCD6003EB2D7 /* AcercaDe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AcercaDe.storyboard; sourceTree = "<group>"; };
 		4D4E338E1E5A06F4003EB2D7 /* Strings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Strings.strings; sourceTree = "<group>"; };
 		4D4E33901E5A07F1003EB2D7 /* SideMenuList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SideMenuList.plist; sourceTree = "<group>"; };
 		4D4E33921E5A0BCB003EB2D7 /* PlistParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistParser.swift; sourceTree = "<group>"; };

@@ -3,4 +3,6 @@ xcode_workspeace: CodPol.xcworkspace # path to your xcodeproj folder
 xcode_scheme: CodPolTests
 osx_image: xcode8.2
 xcode_sdk: iphonesimulator10.0
+before_install:
+  - gem install cocoapods -v '1.2.0'
 
