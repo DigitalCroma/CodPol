@@ -9,13 +9,14 @@
 import UIKit
 
 let kSideMenuListFileName = "SideMenuList"
+let kPlistExtension = "plist"
 
 class PlistParser {
     
-    class private func loadInfoPlist(forName: String) -> [[String : String]]? {
-        if let fileUrl = Bundle.main.url(forResource: forName, withExtension: "plist"),
+    class private func loadInfoPlist(forName: String) -> [[String : Any]]? {
+        if let fileUrl = Bundle.main.url(forResource: forName, withExtension: kPlistExtension),
             let data = try? Data(contentsOf: fileUrl) {
-            if let result = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil) as? [[String: String]] {
+            if let result = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil) as? [[String: Any]] {
                 return result
             }
         }
@@ -29,13 +30,13 @@ class PlistParser {
             for info in sideMenuListInfo {
                 guard
                     let text = info["text"],
-                    let identifier = getIdentifier(forName: info["identifier"]!),
-                    let location = getLocation(forName: info["location"]!)
+                    let identifier = getIdentifier(forName: info["identifier"]! as! String),
+                    let location = getLocation(forName: info["location"]! as! String)
                     else {
                         continue
                 }
                 
-                sideMenuArray.append(SideMenuModel(text: text, identifier: identifier, location: location))
+                sideMenuArray.append(SideMenuModel(text: text as! String, identifier: identifier, location: location))
             }
             
             return sideMenuArray

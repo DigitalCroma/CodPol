@@ -8,4 +8,4 @@ before_install:
   - xcrun simctl delete 22FA2149-1241-469C-BF6D-462D3837DB72
 
 script:
-    - xcodebuild clean build test -sdk iphonesimulator -workspace CodPol.xcworkspace -scheme CodPol CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2'
+    - xcodebuild clean build test -sdk iphonesimulator -workspace CodPol.xcworkspace -scheme CodPol -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.2'
