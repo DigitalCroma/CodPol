@@ -18,17 +18,23 @@
 		4D4E33911E5A07F1003EB2D7 /* SideMenuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D4E33901E5A07F1003EB2D7 /* SideMenuList.plist */; };
 		4D4E33931E5A0BCB003EB2D7 /* PlistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E33921E5A0BCB003EB2D7 /* PlistParser.swift */; };
 		4D4E33951E5A0E56003EB2D7 /* PlistParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E33941E5A0E56003EB2D7 /* PlistParserTests.swift */; };
-		4D4E33961E5A0E60003EB2D7 /* PlistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4E33921E5A0BCB003EB2D7 /* PlistParser.swift */; };
+		4D54C97D1E5D16E7003C4BCA /* db_policecode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D54C97C1E5D16E7003C4BCA /* db_policecode.plist */; };
 		4D85DDC91E552E30001B3F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDC81E552E30001B3F36 /* AppDelegate.swift */; };
 		4D85DDCE1E552E30001B3F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85DDCC1E552E30001B3F36 /* Main.storyboard */; };
-		4D85DDD11E552E30001B3F36 /* CodPol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDCF1E552E30001B3F36 /* CodPol.xcdatamodeld */; };
 		4D85DDD31E552E30001B3F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D85DDD21E552E30001B3F36 /* Assets.xcassets */; };
 		4D85DDD61E552E30001B3F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D85DDD41E552E30001B3F36 /* LaunchScreen.storyboard */; };
 		4D85DDE11E552E30001B3F36 /* CodPolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDE01E552E30001B3F36 /* CodPolTests.swift */; };
 		4D85DDEC1E552E30001B3F36 /* CodPolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85DDEB1E552E30001B3F36 /* CodPolUITests.swift */; };
+		4D8CDF341E621C4800744A29 /* CodPol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CDF321E621C4800744A29 /* CodPol.xcdatamodeld */; };
+		4D8CDF361E6226A200744A29 /* CodPol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CDF321E621C4800744A29 /* CodPol.xcdatamodeld */; };
+		4D8CDF3B1E622DC600744A29 /* db_codpol.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CDF381E622DC600744A29 /* db_codpol.sqlite */; };
+		4D8CDF3C1E622DC600744A29 /* db_codpol.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CDF391E622DC600744A29 /* db_codpol.sqlite-shm */; };
+		4D8CDF3D1E622DC600744A29 /* db_codpol.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CDF3A1E622DC600744A29 /* db_codpol.sqlite-wal */; };
 		4D9CFB2F1E5BB79E00601385 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */; };
-		4D9CFB301E5BB7F700601385 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */; };
-		4D9CFB311E5BC24E00601385 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D51E5928430066E872 /* Constants.swift */; };
+		4DBF7E721E6135650031DBF9 /* DBStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF7E711E6135650031DBF9 /* DBStoreProtocol.swift */; };
+		4DBF7E741E61377C0031DBF9 /* PoliceCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF7E731E61377C0031DBF9 /* PoliceCodeModel.swift */; };
+		4DEA43671E61DF58005993CE /* DBStoreProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA43661E61DF58005993CE /* DBStoreProtocolTests.swift */; };
+		4DEA43721E61F8B2005993CE /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA43711E61F8B2005993CE /* CoreDataStore.swift */; };
 		4DF933D01E59137D0066E872 /* CPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933CF1E59137D0066E872 /* CPNavigationController.swift */; };
 		4DF933D31E5915E60066E872 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D21E5915E60066E872 /* SideMenuViewController.swift */; };
 		4DF933D61E5928430066E872 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF933D51E5928430066E872 /* Constants.swift */; };
@@ -64,10 +70,10 @@
 		4D4E33901E5A07F1003EB2D7 /* SideMenuList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SideMenuList.plist; sourceTree = "<group>"; };
 		4D4E33921E5A0BCB003EB2D7 /* PlistParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistParser.swift; sourceTree = "<group>"; };
 		4D4E33941E5A0E56003EB2D7 /* PlistParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistParserTests.swift; sourceTree = "<group>"; };
+		4D54C97C1E5D16E7003C4BCA /* db_policecode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = db_policecode.plist; sourceTree = "<group>"; };
 		4D85DDC51E552E2F001B3F36 /* CodPol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodPol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D85DDC81E552E30001B3F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D85DDCD1E552E30001B3F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D85DDD01E552E30001B3F36 /* CodPol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodPol.xcdatamodel; sourceTree = "<group>"; };
 		4D85DDD21E552E30001B3F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D85DDD51E552E30001B3F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D85DDD71E552E30001B3F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +83,15 @@
 		4D85DDE71E552E30001B3F36 /* CodPolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodPolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D85DDEB1E552E30001B3F36 /* CodPolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodPolUITests.swift; sourceTree = "<group>"; };
 		4D85DDED1E552E30001B3F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8CDF331E621C4800744A29 /* CodPol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodPol.xcdatamodel; sourceTree = "<group>"; };
+		4D8CDF381E622DC600744A29 /* db_codpol.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db_codpol.sqlite; sourceTree = "<group>"; };
+		4D8CDF391E622DC600744A29 /* db_codpol.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db_codpol.sqlite-shm"; sourceTree = "<group>"; };
+		4D8CDF3A1E622DC600744A29 /* db_codpol.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db_codpol.sqlite-wal"; sourceTree = "<group>"; };
 		4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		4DBF7E711E6135650031DBF9 /* DBStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBStoreProtocol.swift; sourceTree = "<group>"; };
+		4DBF7E731E61377C0031DBF9 /* PoliceCodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliceCodeModel.swift; sourceTree = "<group>"; };
+		4DEA43661E61DF58005993CE /* DBStoreProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBStoreProtocolTests.swift; sourceTree = "<group>"; };
+		4DEA43711E61F8B2005993CE /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		4DF933CF1E59137D0066E872 /* CPNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPNavigationController.swift; sourceTree = "<group>"; };
 		4DF933D21E5915E60066E872 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		4DF933D51E5928430066E872 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -149,6 +163,7 @@
 				4D85DDD21E552E30001B3F36 /* Assets.xcassets */,
 				4D4E338E1E5A06F4003EB2D7 /* Strings.strings */,
 				4D4E33901E5A07F1003EB2D7 /* SideMenuList.plist */,
+				4D54C97C1E5D16E7003C4BCA /* db_policecode.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -178,6 +193,8 @@
 		4D85DDC71E552E30001B3F36 /* CodPol */ = {
 			isa = PBXGroup;
 			children = (
+				4DBF7E6F1E61332D0031DBF9 /* Services */,
+				4DBF7E681E612D240031DBF9 /* DB */,
 				4D9CFB2D1E5BB76500601385 /* Models */,
 				4D4E338D1E59FEED003EB2D7 /* Resources */,
 				4D4E338C1E59FE45003EB2D7 /* Common */,
@@ -185,7 +202,6 @@
 				4DF933D11E5915A20066E872 /* SideMenu */,
 				4DF933CC1E58F5C90066E872 /* Scenes */,
 				4D85DDD71E552E30001B3F36 /* Info.plist */,
-				4D85DDCF1E552E30001B3F36 /* CodPol.xcdatamodeld */,
 			);
 			path = CodPol;
 			sourceTree = "<group>";
@@ -193,9 +209,10 @@
 		4D85DDDF1E552E30001B3F36 /* CodPolTests */ = {
 			isa = PBXGroup;
 			children = (
+				4DEA43641E61DEF4005993CE /* Services */,
+				4DEA43631E61DED6005993CE /* Utils */,
 				4D85DDE01E552E30001B3F36 /* CodPolTests.swift */,
 				4D85DDE21E552E30001B3F36 /* Info.plist */,
-				4D4E33941E5A0E56003EB2D7 /* PlistParserTests.swift */,
 			);
 			path = CodPolTests;
 			sourceTree = "<group>";
@@ -213,8 +230,61 @@
 			isa = PBXGroup;
 			children = (
 				4D9CFB2E1E5BB79E00601385 /* SideMenuModel.swift */,
+				4DBF7E731E61377C0031DBF9 /* PoliceCodeModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4DBF7E681E612D240031DBF9 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CDF321E621C4800744A29 /* CodPol.xcdatamodeld */,
+				4D8CDF381E622DC600744A29 /* db_codpol.sqlite */,
+				4D8CDF391E622DC600744A29 /* db_codpol.sqlite-shm */,
+				4D8CDF3A1E622DC600744A29 /* db_codpol.sqlite-wal */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		4DBF7E6F1E61332D0031DBF9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4DBF7E701E61333F0031DBF9 /* DBService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4DBF7E701E61333F0031DBF9 /* DBService */ = {
+			isa = PBXGroup;
+			children = (
+				4DBF7E711E6135650031DBF9 /* DBStoreProtocol.swift */,
+				4DEA43711E61F8B2005993CE /* CoreDataStore.swift */,
+			);
+			path = DBService;
+			sourceTree = "<group>";
+		};
+		4DEA43631E61DED6005993CE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D4E33941E5A0E56003EB2D7 /* PlistParserTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4DEA43641E61DEF4005993CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA43651E61DEFE005993CE /* DBService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4DEA43651E61DEFE005993CE /* DBService */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA43661E61DF58005993CE /* DBStoreProtocolTests.swift */,
+			);
+			path = DBService;
 			sourceTree = "<group>";
 		};
 		4DF933CC1E58F5C90066E872 /* Scenes */ = {
@@ -360,6 +430,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D54C97D1E5D16E7003C4BCA /* db_policecode.plist in Resources */,
+				4D8CDF3D1E622DC600744A29 /* db_codpol.sqlite-wal in Resources */,
 				4D4E33801E59FAE5003EB2D7 /* SideMenu.storyboard in Resources */,
 				4D85DDD61E552E30001B3F36 /* LaunchScreen.storyboard in Resources */,
 				4D85DDD31E552E30001B3F36 /* Assets.xcassets in Resources */,
@@ -367,6 +439,8 @@
 				4D4E338F1E5A06F4003EB2D7 /* Strings.strings in Resources */,
 				4D4E33861E59FC9B003EB2D7 /* Favoritos.storyboard in Resources */,
 				4D4E33911E5A07F1003EB2D7 /* SideMenuList.plist in Resources */,
+				4D8CDF3B1E622DC600744A29 /* db_codpol.sqlite in Resources */,
+				4D8CDF3C1E622DC600744A29 /* db_codpol.sqlite-shm in Resources */,
 				4D4E33821E59FC38003EB2D7 /* CodigoPolicia.storyboard in Resources */,
 				4D4E338A1E59FCD6003EB2D7 /* AcercaDe.storyboard in Resources */,
 				4D4E33881E59FCCB003EB2D7 /* TiposMulta.storyboard in Resources */,
@@ -444,11 +518,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9CFB2F1E5BB79E00601385 /* SideMenuModel.swift in Sources */,
-				4D85DDD11E552E30001B3F36 /* CodPol.xcdatamodeld in Sources */,
+				4DBF7E741E61377C0031DBF9 /* PoliceCodeModel.swift in Sources */,
 				4DF933D01E59137D0066E872 /* CPNavigationController.swift in Sources */,
+				4DEA43721E61F8B2005993CE /* CoreDataStore.swift in Sources */,
 				4DF933D31E5915E60066E872 /* SideMenuViewController.swift in Sources */,
 				4D85DDC91E552E30001B3F36 /* AppDelegate.swift in Sources */,
+				4DBF7E721E6135650031DBF9 /* DBStoreProtocol.swift in Sources */,
 				4DF933D61E5928430066E872 /* Constants.swift in Sources */,
+				4D8CDF341E621C4800744A29 /* CodPol.xcdatamodeld in Sources */,
 				4D4E33931E5A0BCB003EB2D7 /* PlistParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,11 +534,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9CFB311E5BC24E00601385 /* Constants.swift in Sources */,
 				4D85DDE11E552E30001B3F36 /* CodPolTests.swift in Sources */,
-				4D9CFB301E5BB7F700601385 /* SideMenuModel.swift in Sources */,
+				4DEA43671E61DF58005993CE /* DBStoreProtocolTests.swift in Sources */,
+				4D8CDF361E6226A200744A29 /* CodPol.xcdatamodeld in Sources */,
 				4D4E33951E5A0E56003EB2D7 /* PlistParserTests.swift in Sources */,
-				4D4E33961E5A0E60003EB2D7 /* PlistParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,12 +805,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4D85DDCF1E552E30001B3F36 /* CodPol.xcdatamodeld */ = {
+		4D8CDF321E621C4800744A29 /* CodPol.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4D85DDD01E552E30001B3F36 /* CodPol.xcdatamodel */,
+				4D8CDF331E621C4800744A29 /* CodPol.xcdatamodel */,
 			);
-			currentVersion = 4D85DDD01E552E30001B3F36 /* CodPol.xcdatamodel */;
+			currentVersion = 4D8CDF331E621C4800744A29 /* CodPol.xcdatamodel */;
 			path = CodPol.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import CodPol
 
 class PlistParserTests: XCTestCase {
         
